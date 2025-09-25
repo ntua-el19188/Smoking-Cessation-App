@@ -35,7 +35,7 @@ This repo contains the Flutter app code and (optionally) the backend code in a `
 - **Client:** Flutter (Dart)
 - **Backend (chatbot):** Python (e.g., FastAPI/Flask) — optional subfolder `backend/`
 - **Cloud:** Firebase (Auth, Firestore/Realtime DB, Storage, Analytics)
-- **LLM provider:** OpenAI (via backend)
+- **LLM provider:** OpenRouter (via backend)
 
 ---
 
