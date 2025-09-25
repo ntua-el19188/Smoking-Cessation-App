@@ -40,7 +40,7 @@ This repo contains the Flutter app code and (optionally) the backend code in a `
 ---
 
 ## Repo Structure
-.
+
 ├─ lib/ # Flutter app source
 | ├─ chatbot_backend/ # Python chatbot backend 
 | ├─ main.dart # app entry
@@ -69,22 +69,18 @@ git clone https://github.com/ntua-el19188/Smoking-Cessation-App.git
 cd Smoking-Cessation-App
 ```
 ### 2) Environment Variables
-Create a .env file for the backend (do not commit it). Example (backend/.env.example):
+Create a .env file for the backend. Example (chatbot_backend/.env):
 
 ```bash
 # OpenAI
 OPENAI_API_KEY=
-
-# If using a Google service account for server-side Firebase/Admin SDK:
-# Prefer Workload Identity for production; otherwise point to a local, non-committed JSON file:
-GOOGLE_APPLICATION_CREDENTIALS=/absolute/path/to/service-account.json
-
-# Optional: vector DB / memory paths
-CHROMA_DB_DIR=./data/chroma
-
-# Backend server settings
-PORT=8000
-HOST=0.0.0.0
+DEEPSEEK_API_KEY=
+FIREBASE_CREDENTIALS_PATH=../../firebase/firebase_key.json
+SERPER_API_KEY=
+OPENROUTER_API_KEY=
+CONFIDENT_API_KEY=
+RAG_LOG_PATH="./logs.jsonl"
+DEEPEVAL_OUT=deepeval_report.csv
 ```
 Copy this to .env, fill in real values, but never commit .env.
 
