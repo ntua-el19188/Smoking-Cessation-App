@@ -17,10 +17,6 @@ This repo contains the Flutter app code and (optionally) the backend code in a `
 - [Run](#run)
   - [Run the Backend (Python)](#run-the-backend-python)
   - [Run the Flutter App](#run-the-flutter-app)
-- [Config & Secrets](#config--secrets)
-- [Assets & Large Files](#assets--large-files)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
