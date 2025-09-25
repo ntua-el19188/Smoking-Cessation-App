@@ -42,23 +42,16 @@ This repo contains the Flutter app code and (optionally) the backend code in a `
 ## Repo Structure
 .
 ├─ lib/ # Flutter app source
-├─ assets/ # App assets (images, icons) — optional
-├─ backend/ # Python chatbot backend (optional)
-│ ├─ main.py # Example app entry (FastAPI/Flask) [adjust to your project]
+| ├─ chatbot_backend/ # Python chatbot backend 
+| ├─ main.dart # app entry
 │ ├─ requirements.txt
-│ └─ README.md # Backend run instructions (optional)
+├─ assets/ # App assets (images, audios)
 ├─ pubspec.yaml
 ├─ pubspec.lock
 ├─ LICENSE
 ├─ README.md
 └─ .gitignore
 
-yaml
-Αντιγραφή κώδικα
-
-If you don’t keep the backend here, remove the `backend/` references and point to its repo in this README.
-
----
 
 ## Prerequisites
 - **Flutter**: Install from https://flutter.dev/ and run `flutter doctor`.
@@ -67,7 +60,6 @@ If you don’t keep the backend here, remove the `backend/` references and point
 - **FlutterFire CLI**: `dart pub global activate flutterfire_cli` (if you manage Firebase configs via CLI).
 - **Python 3.10+** (for backend), `pip`, and optionally `virtualenv`.
 
----
 
 ## Setup
 
