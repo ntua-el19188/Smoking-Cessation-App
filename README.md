@@ -1,7 +1,7 @@
 # Smoking Cessation App (Flutter + Python Chatbot)
 
-A mobile app to help users quit smoking. Built with **Flutter** for the client and a **Python** chatbot backend.  
-This repo contains the Flutter app code and (optionally) the backend code in a `backend/` folder.
+A mobile app to help users quit smoking. Built with **Flutter** and a **Python** chatbot backend.  
+This repo contains the Flutter app code and the backend code in a `chatbot_backend/` folder.
 
 ---
 
