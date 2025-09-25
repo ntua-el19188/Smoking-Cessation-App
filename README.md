@@ -96,8 +96,7 @@ iOS → ios/Runner/GoogleService-Info.plist
 Make sure your Firebase Security Rules are set correctly for your data model.
 
 ## Run
-Run the Backend (Python)
-Skip this if you host the backend elsewhere and the app calls a public URL.
+Run the Backend (Python) Skip this if you host the backend elsewhere and the app calls a public URL.
 
 ```bash
 cd backend
@@ -136,26 +135,23 @@ From the repo root:
 ```bash
 flutter pub get
 
-# If using code generation, run it (optional):
-# dart run build_runner build --delete-conflicting-outputs
-
 # Run on a connected device or emulator
 flutter run
 ```
 If your app calls the local backend, set the base URL accordingly (e.g., http://10.0.2.2:8000 for Android emulator, http://localhost:8000 for iOS simulator/web).
 
 ## Troubleshooting
-App can’t connect to Firebase
+### App can’t connect to Firebase
 
 Check that firebase_options.dart exists and matches your Firebase project.
 
 Confirm google-services.json / GoogleService-Info.plist are placed locally (not committed).
 
-App can’t reach the backend
+### App can’t reach the backend
 
 Verify the base URL (Android emulator uses 10.0.2.2 instead of localhost).
 
 Ensure the backend is running and CORS is configured if you build for web.
 
-License
+## License
 This project is licensed under the MIT License. See LICENSE for details.
