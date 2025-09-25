@@ -40,7 +40,7 @@ This repo contains the Flutter app code and (optionally) the backend code in a `
 ---
 
 ## Repo Structure
-
+```
 ├─ lib/ # Flutter app source
 | ├─ chatbot_backend/ # Python chatbot backend 
 | ├─ main.dart # app entry
@@ -51,7 +51,7 @@ This repo contains the Flutter app code and (optionally) the backend code in a `
 ├─ LICENSE
 ├─ README.md
 └─ .gitignore
-
+```
 
 ## Prerequisites
 - **Flutter**: Install from https://flutter.dev/ and run `flutter doctor`.
