@@ -95,7 +95,7 @@ iOS → ios/Runner/GoogleService-Info.plist
 
 Make sure your Firebase Security Rules are set correctly for your data model.
 
-##Run
+## Run
 Run the Backend (Python)
 Skip this if you host the backend elsewhere and the app calls a public URL.
 
